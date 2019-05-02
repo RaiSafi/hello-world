@@ -52,7 +52,7 @@
       </plugin>
     </plugins>
 
-  <reporting>
+  <!--  <reporting> -->
        <reportPlugins>
             <plugin>
               <artifactId>maven-checkstyle-plugin</artifactId>
@@ -84,7 +84,7 @@
               <artifactId>taglist-maven-plugin</artifactId>
             </plugin>
           </reportPlugins>    
-  </reporting>
+ <!--  </reporting> -->
            
     <pluginManagement>
       <plugins>
