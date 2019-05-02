@@ -48,13 +48,8 @@
 
       <plugin>
         <artifactId>maven-site-plugin</artifactId>
-          <version>3.6</version>     
-      </plugin>
-    </plugins>
-
- <reporting>
-   <plugins>
-   <reportPlugins>
+        <configuration>
+          <reportPlugins>
             <plugin>
               <artifactId>maven-checkstyle-plugin</artifactId>
             </plugin>
@@ -85,9 +80,10 @@
               <artifactId>taglist-maven-plugin</artifactId>
             </plugin>
           </reportPlugins>
-   </plugins>
- </reporting> 
-           
+        </configuration>
+      </plugin>
+    </plugins>
+
     <pluginManagement>
       <plugins>
         <plugin>
